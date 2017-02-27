@@ -1,6 +1,6 @@
 while True:
 	try:
-		dictionary = {'<':'<LESS_THAN<', '@':'@AT_SIGN@', '$':'$DOLLAR_SIGN$', '!':'!BANG!', '(':'(PARENS(','+':'+PLUS+', '1':'#ONE#', '2':'#TWO#', '3':'#THREE#', '4':'#FOUR#',
+		dictionary = {'<':'<LESS_THAN<', '@':'@AT_SIGN@', '$':'$DOLLAR_SIGN$', '!':'!BANG!', ')':')PARENS)', '(':'(PARENS(','+':'+PLUS_SIGN+', '1':'#ONE#', '2':'#TWO#', '3':'#THREE#', '4':'#FOUR#',
 		'5':'#FIVE#', '6':'#SIX#', '7':'#SEVEN#', '8':'#EIGHT#', '9':'#NINE#',
 		'0':'#ZERO#', 'a':'alpha', 'b':'bravo', 'c':'charlie', 'd':'delta',
 		'e':'echo', 'f':'foxtrot', 'g':'golf', 'h':'hotel', 'i':'india', 'j':'juliet',
@@ -16,5 +16,4 @@ while True:
 		print("Oops! Invalid String Entered")
 		break
 	else:
-		print("phonetic alphabet: " + " ".join(map(dictionary.get,inputtext)))
-		break	
+		print("phonetic alphabet: " + " ".join(map(dictionary.get,inputtext)))	
