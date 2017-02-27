@@ -16,4 +16,4 @@ while True:
 		print("Oops! Invalid String Entered")
 		break
 	else:
-		print("phonetic alphabet: " + " ".join(map(dictionary.get,inputtext)))	
+		print("phonetic alphabet: " + ", ".join(map(dictionary.get,inputtext)))
