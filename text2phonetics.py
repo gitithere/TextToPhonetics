@@ -13,9 +13,9 @@ while True:
 		'W':'WHISKEY', 'X':'X-RAY', 'Y':'YANKEE', 'Z':'ZULU'}
 		inputtext = raw_input('Enter string to convert to phonetic: ')
 	except (TypeError, ValueError, NameError):
-		print("Oops! Invalid String Entered")
+		print('Oops! Invalid String Entered')
 		break
 	except KeyboardInterrupt:
 		break
 	else:
-		print("phonetic alphabet: " + ", ".join(map(dictionary.get,inputtext)))
+		print('phonetic alphabet: ' + ', '.join(map(dictionary.get,inputtext)))
