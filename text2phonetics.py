@@ -15,5 +15,7 @@ while True:
 	except (TypeError, ValueError, NameError):
 		print("Oops! Invalid String Entered")
 		break
+	except KeyboardInterrupt:
+		break
 	else:
 		print("phonetic alphabet: " + ", ".join(map(dictionary.get,inputtext)))
