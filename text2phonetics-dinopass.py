@@ -1,3 +1,7 @@
+# 
+# All credit to Kevan Stannard dinopass website: http://www.dinopass.com
+# Awesome password generator for kids
+# 
 import urllib2
 response = urllib2.urlopen('http://www.dinopass.com/password/strong')
 html = response.read()
