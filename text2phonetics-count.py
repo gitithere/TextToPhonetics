@@ -7,6 +7,7 @@ import time
 count=0
 count = raw_input('Enter number of times to generate a password: ')
 count = int(count)
+print " "
 #except (TypeError, ValueError, NameError):
 #             print('Oops! Invalid String Entered')
 #             break
@@ -30,7 +31,9 @@ while (count > 0):
         else:
                 print('phonetic alphabet: ' + ', '.join(map(dictionary.get,html)))
                 count -= 1
+                print " "
                 print count
-                time.sleep(2) # delays for 1 seconds
+                print " "
+                time.sleep(2) # delays for 2 seconds
                 if int(count) == 0:
                         break
