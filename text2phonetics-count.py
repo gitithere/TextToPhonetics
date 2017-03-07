@@ -5,7 +5,16 @@
 import urllib2
 import time
 count=0
-count = raw_input('Enter number of times to generate a password: ')
+print ' ____ ____ ____ ____ ____ _________ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ '
+print '||K |||e |||v |||a |||n |||       |||S |||t |||a |||n |||n |||a |||r |||d |||'' |||s ||'
+print '||__|||__|||__|||__|||__|||_______|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||'
+print '|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|'
+print '____ ____ ____ ____ ____ ____ ____ ____'                                              
+print '||D |||i |||n |||o |||P |||a |||s |||s ||'                                             
+print '||__|||__|||__|||__|||__|||__|||__|||__||'                                             
+print '|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|'
+print ' '
+count = raw_input('Enter number of times to generate a strong password from Kevan Stannard Dinopass website: ')
 count = int(count)
 print " "
 #except (TypeError, ValueError, NameError):
