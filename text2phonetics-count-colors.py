@@ -1,7 +1,7 @@
 #
 # All credit to Kevan Stannard dinopass website: http://www.dinopass.com
 # Awesome password generator for kids
-#
+# Added BOLD, CAPS, AND COLORS to passwords generated
 import urllib2
 import time
 import sys
@@ -51,7 +51,8 @@ print " "
 while (count > 0):
         response = urllib2.urlopen('http://www.dinopass.com/password/strong')
         html = response.read()
-        print 'This is from Kevan Stannard-DinoPass strong password website: ' + html
+        print GREEN
+        print 'This is from Kevan Stannard-DinoPass strong password website: \033[0;0m ' + html
 #while True:
         try:
                 print RESET
