@@ -67,7 +67,7 @@ while (count > 0):
                 sys.exit(3)
         else:
                 print REVERSE
-                print ('Copy in MS-WORD to get BOLD, CAPS, and COLORS: \033[0;0m ' + ''.join(map(dictionary1.get,html)))
+                print ('Copy to MS-WORD to get BOLD, CAPS, and COLORS: \033[0;0m ' + ''.join(map(dictionary1.get,html)))
                 print REVERSE
                 print('Phonetic Alphabet: \033[0;0m ' + ', '.join(map(dictionary2.get,html)))
                 count -= 1
